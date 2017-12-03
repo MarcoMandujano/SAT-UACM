@@ -58,8 +58,8 @@ function setCandidato() {
     var cartaExpoMotivos = document.getElementById("CartaExpoMotivos").value;
     var contrasena = document.getElementById("Contrasena").value;
     
-    var formData = new FormData(document.getElementById("enviarimagenes"));
-    console.log(formData);
+    //var formData = new FormData(document.getElementById("enviarimagenes"));
+    //console.log(formData);
     /*var datos = {
         "nombre" : nombre,
         "email" : email,

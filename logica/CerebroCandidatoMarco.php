@@ -71,6 +71,7 @@ include '../persistencia/candidatoDBHelper.php';
         $candidato->setContrasena($contrasena);
         $candidato->setHorarioTrabajo('10');
         
+        /*
         if($_FILES['imagen']['error'] === 4) {
 	die( 'Es necesario establecer una imagen' );
 	//Si los inputs están seteados y el archivo no tiene errores, se procede
@@ -110,7 +111,7 @@ include '../persistencia/candidatoDBHelper.php';
         }
         
         echo 'contenido de imagen = ' . $imagenBinaria;
-        
+        */
         //$helper = new candidatoDBHelper();
         
         //$helper->setCandidato($candidato);
